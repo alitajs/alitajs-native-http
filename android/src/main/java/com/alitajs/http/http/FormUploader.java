@@ -1,4 +1,4 @@
-package com.getcapacitor.plugin.http;
+package com.alitajs.http.http;
 
 import com.getcapacitor.JSObject;
 import java.io.File;

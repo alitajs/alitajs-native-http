@@ -1,4 +1,4 @@
-package com.getcapacitor.plugin.http;
+package com.alitajs.http.http;
 
 enum MimeType {
     APPLICATION_JSON("application/json"),

@@ -1,5 +1,5 @@
 {
-  "name": "@capacitor-community/http",
+  "name": "@alitajs/http",
   "version": "1.4.1",
   "description": "A native HTTP plugin for CORS-free requests and file transfers",
   "main": "dist/plugin.cjs.js",
@@ -16,7 +16,7 @@
     "prepublishOnly": "npm run build && npm run ios:build",
     "prepare": "husky install"
   },
-  "author": "Max Lynch <max@ionic.io>, Thomas Vidas <thomas@ionic.io>",
+  "author": "Ashoka <savebtc11@gmail.com>, Max Lynch <max@ionic.io>, Thomas Vidas <thomas@ionic.io>",
   "license": "MIT",
   "dependencies": {
     "@capacitor/android": "^3.0.0",
@@ -45,7 +45,7 @@
     "dist/",
     "ios/",
     "android/",
-    "CapacitorCommunityHttp.podspec"
+    "AlitaNativeHttp.podspec"
   ],
   "keywords": [
     "capacitor",
@@ -63,9 +63,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/capacitor-community/http"
+    "url": "https://github.com/alitajs/alitajs-native-http"
   },
   "bugs": {
-    "url": "https://github.com/capacitor-community/http/issues"
+    "url": "https://github.com/alitajs/alitajs-native-http/issues"
   }
 }

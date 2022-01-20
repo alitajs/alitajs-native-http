@@ -1,6 +1,6 @@
-package com.getcapacitor.plugin.http;
+package com.alitajs.http.http;
 
-import static com.getcapacitor.plugin.http.HttpRequestHandler.ResponseType.JSON;
+import static com.alitajs.http.http.HttpRequestHandler.ResponseType.JSON;
 import static java.nio.charset.StandardCharsets.UTF_8;
 import static org.junit.Assert.assertEquals;
 

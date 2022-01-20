@@ -1,7 +1,7 @@
-package com.getcapacitor.plugin.http;
+package com.alitajs.http.http;
 
-import static com.getcapacitor.plugin.http.MimeType.APPLICATION_JSON;
-import static com.getcapacitor.plugin.http.MimeType.APPLICATION_VND_API_JSON;
+import static com.alitajs.http.http.MimeType.APPLICATION_JSON;
+import static com.alitajs.http.http.MimeType.APPLICATION_VND_API_JSON;
 
 import android.content.Context;
 import android.text.TextUtils;
@@ -127,11 +127,11 @@ public class HttpRequestHandler {
             String initialQueryBuilderStr = initialQuery == null ? "" : initialQuery;
 
             Iterator<String> keys = params.keys();
-            
+
             if (!keys.hasNext()) {
                 return this;
             }
-            
+
             StringBuilder urlQueryBuilder = new StringBuilder(initialQueryBuilderStr);
 
             // Build the new query string
@@ -167,7 +167,13 @@ public class HttpRequestHandler {
                 URI encodedUri = new URI(uri.getScheme(), uri.getAuthority(), uri.getPath(), urlQuery, uri.getFragment());
                 this.url = encodedUri.toURL();
             } else {
-                String unEncodedUrlString = uri.getScheme() + "://" + uri.getAuthority() + uri.getPath() + ((!urlQuery.equals("")) ? "?" + urlQuery : "") + ((uri.getFragment() != null) ? uri.getFragment() : "");
+                String unEncodedUrlString =
+                    uri.getScheme() +
+                    "://" +
+                    uri.getAuthority() +
+                    uri.getPath() +
+                    ((!urlQuery.equals("")) ? "?" + urlQuery : "") +
+                    ((uri.getFragment() != null) ? uri.getFragment() : "");
                 this.url = new URL(unEncodedUrlString);
             }
 

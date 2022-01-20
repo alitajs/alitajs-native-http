@@ -1,6 +1,6 @@
 <p align="center"><br><img src="https://user-images.githubusercontent.com/236501/85893648-1c92e880-b7a8-11ea-926d-95355b8175c7.png" width="128" height="128" /></p>
 <h3 align="center">HTTP</h3>
-<p align="center"><strong><code>@capacitor-community/http</code></strong></p>
+<p align="center"><strong><code>@alitajs/http</code></strong></p>
 <p align="center">
   Capacitor community plugin for native HTTP requests, file download/uploads, and cookie management.
 </p>
@@ -8,10 +8,10 @@
 <p align="center">
   <img src="https://img.shields.io/maintenance/yes/2021?style=flat-square" />
   <a href="https://github.com/capacitor-community/http/actions?query=workflow%3A%22Test+and+Build+Plugin%22"><img src="https://img.shields.io/github/workflow/status/capacitor-community/http/Test%20and%20Build%20Plugin?style=flat-square" /></a>
-  <a href="https://www.npmjs.com/package/@capacitor-community/http"><img src="https://img.shields.io/npm/l/@capacitor-community/http?style=flat-square" /></a>
+  <a href="https://www.npmjs.com/package/@alitajs/http"><img src="https://img.shields.io/npm/l/@alitajs/http?style=flat-square" /></a>
 <br>
-  <a href="https://www.npmjs.com/package/@capacitor-community/http"><img src="https://img.shields.io/npm/dw/@capacitor-community/http?style=flat-square" /></a>
-  <a href="https://www.npmjs.com/package/@capacitor-community/http"><img src="https://img.shields.io/npm/v/@capacitor-community/http?style=flat-square" /></a>
+  <a href="https://www.npmjs.com/package/@alitajs/http"><img src="https://img.shields.io/npm/dw/@alitajs/http?style=flat-square" /></a>
+  <a href="https://www.npmjs.com/package/@alitajs/http"><img src="https://img.shields.io/npm/v/@alitajs/http?style=flat-square" /></a>
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 <a href="#contributors-"><img src="https://img.shields.io/badge/all%20contributors-23-orange?style=flat-square" /></a>
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
@@ -27,7 +27,7 @@
 ## Installation
 
 ```bash
-npm install @capacitor-community/http
+npm install @alitajs/http
 npx cap sync
 ```
 
@@ -36,7 +36,7 @@ npx cap sync
 For Capacitor 2.x projects, you will need to install a version less than 1.0.0. You can do that by specifying the version in your `package.json` or installing like this. The latest 2.x compatible version is `0.3.1`.
 
 ```bash
-npm install @capacitor-community/http@0.x
+npm install @alitajs/http@0.x
 ```
 
 ## Configuration
@@ -49,7 +49,7 @@ If the Android application connects with use the self-signed certificates or wit
 To use the plugin while fully supporting the web version, import and use it like this:
 
 ```typescript
-import { Http } from '@capacitor-community/http';
+import { Http } from '@alitajs/http';
 
 // Example of a GET request
 const doGet = () => {

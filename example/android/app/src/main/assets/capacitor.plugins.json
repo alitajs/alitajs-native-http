@@ -1,6 +1,10 @@
 [
-	{
-		"pkg": "@capacitor-community/http",
-		"classpath": "com.getcapacitor.plugin.http.Http"
-	}
+  {
+    "pkg": "@alitajs/http",
+    "classpath": "com.alitajs.http.http.Http"
+  },
+  {
+    "pkg": "@capacitor/filesystem",
+    "classpath": "com.capacitorjs.plugins.filesystem.FilesystemPlugin"
+  }
 ]

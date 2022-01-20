@@ -1,8 +1,8 @@
 package com.example.app;
 
 import android.os.Bundle;
+import com.alitajs.http.http.Http;
 import com.getcapacitor.BridgeActivity;
-import com.getcapacitor.plugin.http.Http;
 
 public class MainActivity extends BridgeActivity {
 
