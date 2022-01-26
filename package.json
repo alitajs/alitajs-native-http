@@ -43,8 +43,9 @@
   },
   "files": [
     "dist/",
-    "ios/",
-    "android/",
+    "android/src/main/",
+    "android/build.gradle",
+    "ios/Plugin/",
     "AlitaNativeHttp.podspec"
   ],
   "keywords": [
@@ -67,5 +68,8 @@
   },
   "bugs": {
     "url": "https://github.com/alitajs/alitajs-native-http/issues"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

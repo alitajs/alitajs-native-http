@@ -19,10 +19,9 @@
 
 ## Maintainers
 
-| Maintainer   | GitHub                                        | Social                                          |
-| ------------ | --------------------------------------------- | ----------------------------------------------- |
-| Max Lynch    | [mlynch](https://github.com/mlynch)           | [@maxlynch](https://twitter.com/maxlynch)       |
-| Thomas Vidas | [thomasvidas](https://github.com/thomasvidas) | [@thomasvidas](https://twitter.com/thomasvidas) |
+| Maintainer | GitHub                                |
+| ---------- | ------------------------------------- |
+| Ashoka     | [ashoka](https://github.com/falcon11) |
 
 ## Installation
 
