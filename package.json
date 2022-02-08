@@ -46,7 +46,7 @@
     "android/src/main/",
     "android/build.gradle",
     "ios/Plugin/",
-    "AlitaNativeHttp.podspec"
+    "AlitajsHttp.podspec"
   ],
   "keywords": [
     "capacitor",
