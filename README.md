@@ -158,6 +158,31 @@ As of iOS 14, you cannot use 3rd party cookies by default. There is an open issu
 </array>
 ```
 
+## How to use this plugin in existing native project
+
+### ios
+
+in `Podfile`
+
+```ruby
+pod 'AlitajsHttp'
+```
+
+### android
+
+in `build.gradle`
+
+```java
+repositories {
+  ...
+  maven { url 'https://jitpack.io' }
+}
+
+dependencies {
+  implementation 'com.github.alitajs:alitajs-native-http:Tag'
+}
+```
+
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
